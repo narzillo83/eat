@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Kayak Sans ', sans-serif; */
+} 
+.container
+{   
+    position: relative;
+    min-height: 877px;
+    background: url(../img/Sliced-Onion-PNG-Image.png) center center/cover no-repeat;
+}
+.btn__sign-up 
+{
+    width: 115px;
+    height: 44px;
+    background-color: #6ece0f;
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: 'Kayak Sans';
+    color: #ffffff;
+    position: absolute;
+    top: 47px;
+    right: 175px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.btn__sign-up:hover
+{
+    color: #6ece0f;
+    background-color: #ffffff;
+    border: 1px solid #6ece0f;
+    box-shadow: 1px 1px 10px gray;
+}
+.header__wrapper
+{   
+    width: 466px;
+    min-height: 366px;
+    padding: 243px 0 0 179px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.title 
+{
+    font-family: KayakSans;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 390px;
+}
+.title span
+{
+    color: #5fb709;
+}
+.subtitle
+{   
+    margin-top: 52px;
+    width: 466px;
+    opacity: 0.8;
+    font-family: KayakSans;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #000000;
+}
+.button__order
+{
+    width: 220px;
+    height: 70px;
+    background-color: #5fb709;
+    font-family: KayakSans;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s all;
+    margin-top: 45px;
+}
+.button__order:hover
+{
+    color: #6ece0f;
+    background-color: #ffffff;
+    border: 1px solid #6ece0f;
+    box-shadow: 1px 1px 10px gray;
+}
